@@ -14,8 +14,7 @@ main{
     justify-content: center;
 }
 .container{
-    /* width: 1440px; */
-    padding: 100px;
+    padding: 30px 100px;
 }
 /* Influences Part */
 .influencer{
