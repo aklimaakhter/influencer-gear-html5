@@ -58,6 +58,10 @@ main{
     text-align: center;
     font-size: 28px;
 }
+.collection{
+    box-shadow: 0px 0px 10px gray;
+    padding: 30px;
+}
 .collection .collection-banner img{
    width: 300px;
    height: 256px;
@@ -93,4 +97,34 @@ main{
 .fab{
     margin-right: 10px;
     
+}
+
+/*------------------
+   Media Queries
+----------------- -- */
+
+/* Mobile Devises  */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .influencer, .collections, .tecnologist{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .influence, .collection, .technology{
+        flex-direction: column;
+    }
+}
+
+/* Tablet Device */
+@media only screen and (min-width:688px) and (max-width:992px)  {
+    .container{
+        width: 100%;
+    }
+    .influencer, .collections, .tecnologist{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .influence, .collection, .technology{
+        flex-direction: column;
+    }
 }
