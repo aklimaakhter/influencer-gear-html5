@@ -1,0 +1,47 @@
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* common style  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    /* width: 1440px; */
+    padding: 100px;
+}
+/* Influences Part */
+.influencer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.section-title{
+    font-size: 24px;
+}
+.influence {
+    /* display: flex; */
+    align-items: center;
+}
+.influence img{
+   width: 440px;
+   height: 414px;
+}
+.influence h1{
+   font-size: 52px;
+}
+.influence p{
+   font-size: 16px;
+}
+.link-button{
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 40px;
+    border-radius: 41px;
+    color: #FFFFFF;
+}
