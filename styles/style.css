@@ -10,6 +10,7 @@ body{
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .container{
@@ -21,7 +22,7 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.section-title{
+.section-title {
     font-size: 24px;
 }
 .influence {
@@ -44,4 +45,29 @@ main{
     padding: 10px 40px;
     border-radius: 41px;
     color: #FFFFFF;
+}
+
+/* Collection Style  */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:30px ;
+    grid-row-gap: 30px;
+}
+.Collection-tiltle{
+    text-align: center;
+    font-size: 28px;
+}
+.collection .collection-banner img{
+   width: 300px;
+   height: 256px;
+}
+.filled{
+    color: #FB8200;
+    font-size: 12px;
+}
+.see-more-button{
+    text-decoration: none;
+    text-align: right;
+    color: #E02C6D;
 }
